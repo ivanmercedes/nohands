@@ -11,6 +11,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
     "jest": "^27.5.1",
     "microbundle": "^0.14.2"
   }
