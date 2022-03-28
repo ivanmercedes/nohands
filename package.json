@@ -8,7 +8,9 @@
   "source": "src/index.js",
   "scripts": {
     "test": "jest",
-    "build": "microbundle"
+    "build": "microbundle",
+    "prebuild": "npm run test",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "Ivan Mercedes <ivanmercede@gmail.com> (https://ivanmercedes.com)",
