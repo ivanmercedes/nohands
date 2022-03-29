@@ -2,6 +2,9 @@
   "name": "@ivanmercedes/nohands",
   "version": "1.0.0",
   "description": "",
+  "bin": {
+    "@ivanmercedes/nohands": "src/index.js"
+   },
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.mjs",
