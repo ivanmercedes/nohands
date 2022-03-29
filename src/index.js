@@ -9,7 +9,6 @@ const main = async () => {
     console.log(opt);
     switch (opt) {
       case 1:
-        console.log("caca");
         const term = await Input("Opciones: ");
 
         console.log(term);
