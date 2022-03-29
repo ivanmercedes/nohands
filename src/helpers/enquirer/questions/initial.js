@@ -4,19 +4,19 @@ const initial = [
   {
     type: "list",
     name: "option",
-    message: "Que desea hacer?",
+    message: "What would you like to do?",
     choices: [
       {
         value: 1,
-        name: `${`1.`.green} Instalar Prettier, Eslint & Husky`,
+        name: `${`1.`.green} Install Prettier, Eslint & Husky`,
       },
       {
         value: 2,
-        name: `${`2.`.green} Crear estructura de carpertas`,
+        name: `${`2.`.green} Create folder structure`,
       },
       {
         value: 0,
-        name: `${`0.`.green} Salir`,
+        name: `${`0.`.green} exit`,
       },
     ],
   },
