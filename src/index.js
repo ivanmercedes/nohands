@@ -1,16 +1,16 @@
-const { Input, inquirerMenu, pause } = require("../helpers/enquirer");
+#!/usr/bin/env node
+const { Input, inquirerMenu, pause } = require("../src/helpers/enquirer");
 
 const main = async () => {
   let opt;
 
   do {
     opt = await inquirerMenu();
-    console.log(opt)
+    console.log(opt);
     switch (opt) {
       case 1:
         console.log("caca");
         const term = await Input("Opciones: ");
-
 
         console.log(term);
         break;
@@ -22,12 +22,9 @@ const main = async () => {
 
     if (opt !== 0) await pause();
   } while (opt !== 0);
+  console.clear();
 };
 
-main();
-
-// function hello(name = "Ivan") {
-//   return `Hello, ${name}`;
-// }
-
-// export default hello;
+if (require.main === module) {
+  main();
+}
