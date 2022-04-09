@@ -1,25 +1,24 @@
 #!/usr/bin/env node
-const { Input, inquirerMenu, pause } = require("../src/helpers/enquirer");
+const { inquirerMenu } = require("../src/helpers/enquirer");
+const installEslintPrettierHusky = require("./helpers/enquirer/installEslintPrettierHusky");
 
 const main = async () => {
   let opt;
 
   do {
     opt = await inquirerMenu();
-    console.log(opt);
     switch (opt) {
       case 1:
-        const term = await Input("Opciones: ");
-
-        console.log(term);
+        // react
+        installEslintPrettierHusky();
+        opt = 0;
         break;
 
       case 2:
-        console.log("react");
+        // Todo
+        // vue
         break;
     }
-
-    if (opt !== 0) await pause();
   } while (opt !== 0);
   console.clear();
 };
