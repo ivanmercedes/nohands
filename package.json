@@ -1,12 +1,13 @@
 {
-  "name": "@ivanmercedes/nohands",
-  "version": "1.1.0",
+  "name": "nohands",
+  "version": "0.0.1",
   "description": "",
   "bin": {
-    "@ivanmercedes/nohands": "src/index.js"
+    "nohands": "src/index.js"
   },
   "source": "src/index.js",
   "scripts": {
+    "build": "",
     "prepublish": "npm run build"
   },
   "keywords": [],
