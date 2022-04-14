@@ -3,9 +3,9 @@
   "version": "0.0.2",
   "description": "",
   "bin": {
-    "nohands": "src/index.js"
+    "nohands": "lib/index.js"
   },
-  "source": "src/index.js",
+  "source": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
     "prepublishOnly": "npm run build"
