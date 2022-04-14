@@ -1,4 +1,4 @@
-# NoHand cli tool 🚀
+# NoHand 🚀
 
 Save time configuring ESLint and Prettier on react with this tool you can do it very simply and easily, using only one command without having to configure files manually
 
