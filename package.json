@@ -7,13 +7,17 @@
   },
   "source": "src/index.js",
   "scripts": {
-    "build": "",
+    "build": "babel src -d lib",
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "Ivan Mercedes <ivanmercede@gmail.com> (https://ivanmercedes.com)",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "babel-jest": "^27.5.1",
     "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.5.0",
