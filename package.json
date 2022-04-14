@@ -8,7 +8,7 @@
   "source": "src/index.js",
   "scripts": {
     "build": "",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "Ivan Mercedes <ivanmercede@gmail.com> (https://ivanmercedes.com)",
