@@ -2,7 +2,7 @@
 require('colors');
 const inquirer = require('inquirer');
 const options = require('./helpers/options');
-const installEPHReact = require('./helpers/enquirer/installEPHReact');
+const installEPHReact = require('./helpers/installEPHReact');
 
 const inquirerMenu = async () => {
 	console.clear();
